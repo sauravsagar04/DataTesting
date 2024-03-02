@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Data Testing Suite" verbose="1">
+    <parameter name="suite_id" value="mysql_crime_report"/>
+    <parameter name="excel_file_path" value="your_excel_file_path_here"/>
+
+    <test name="MySQL Crime Report Test">
+        <classes>
+            <class name="testClass.MySql_CrimeReportTable"/>
+        </classes>
+    </test>
+</suite>
